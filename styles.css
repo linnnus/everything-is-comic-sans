@@ -1,0 +1,8 @@
+/*
+'*' selects everything
+'!important' overwrites any exiting css
+*/
+
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
+}

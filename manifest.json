@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Everything is Comic Sans",
+  "version": "0.1.0",
+  "description": "Changes the font of any website to Comic Sans MS.",
+  "icons": {"128":"/icons/icon128.png"},
+  "permissions": ["<all_urls>"],
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["<all_urls>"]
+  }]
+
+}
